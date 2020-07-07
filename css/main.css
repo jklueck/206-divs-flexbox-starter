@@ -108,15 +108,26 @@ body {
   height: 100%;
 }
 
+h1 {
+    font-size: 3em;
+    color: #fff;
+}
+
+h2 {
+    color: #808080;
+}
+
+p {
+    color: #808080;
+}
+
 .wrapper {
-  /*add display:flex and set justify-content to space-between*/
   font-weight: 400;
   display: flex;
   justify-content: space-between;
 }
 
 .div-1, .div-2, .div-3 {
-  /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
   font-family: Helvetica, sans-serif;
